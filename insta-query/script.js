@@ -14,7 +14,7 @@ var image = $('#dogImage');
 $(document).ready(function(){
   $("button").click(function(){
     alert("updatePicture");
-    image.attr('src', url.val());
+    image.attr('src', dogBreed.val());
     image.css ('width', `${width.val()}px`);
     image.css ('height', `${height.val()}px`);
   });
