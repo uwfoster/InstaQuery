@@ -45,3 +45,20 @@ Make a 'photo editor' that allows a user to load up any photo by URL and adjust 
 ## Advanced Technical Goals
 - Allow users to upload an image from their computer
 - Allow user to download newly edited image
+
+******************************If you want to add filters*****************************
+Other Filters:
+<select id = 'filterType'>
+  <option value="sepia">sepia</option>
+  <option value="sepia">sepia</option>
+  <option value="sepia">sepia</option>
+  <option value="sepia">sepia</option>
+  <option value="sepia">sepia</option>
+  <option value="sepia">sepia</option>
+</select> <br>
+Filter Value: <input type="number" id="filterVal">
+
+<select id= 'filterVal'>
+
+</select>
+**************************************************************************************

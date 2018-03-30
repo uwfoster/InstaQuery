@@ -7,9 +7,14 @@ var dogBreed = $('#dogBreed');
 var horizontal = $('#width');
 var vertical= $('#height');
 
+// I don't understand how I would get the entered values into the function
+// in order to have the code act upon what was entered.
 
 $(document).ready(function(){
   $("button").click(function(){
     alert("updatePicture");
+    image.attr('src', url.val());
+    image.css ('width', `${width.val()}px`);
+    image.css ('height', `${height.val()}px`);
   });
 });
