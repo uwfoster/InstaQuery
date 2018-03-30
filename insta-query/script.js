@@ -4,8 +4,8 @@
       crossorigin="anonymous"></script> */
 
 var dogBreed = $('#dogBreed');
-var horizontal = $('#width');
-var vertical= $('#height');
+var width = $('#width');
+var height = $('#height');
 var image = $('#dogImage');
 
 // I don't understand how I would get the entered values into the function
