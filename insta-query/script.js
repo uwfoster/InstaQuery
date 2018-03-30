@@ -6,6 +6,7 @@
 var dogBreed = $('#dogBreed');
 var horizontal = $('#width');
 var vertical= $('#height');
+var image = $('#dogImage');
 
 // I don't understand how I would get the entered values into the function
 // in order to have the code act upon what was entered.
