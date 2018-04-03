@@ -1,5 +1,21 @@
 img {
-  display: absolute;
+  /* display: absolute;
   align-content: center;
-  justify-content: center;
+  justify-content: center; */
+  border: 25px solid navy;
+  position: top right:
+}
+
+#container {
+  margin: 1px;
+  /* width: 50%; */
+  border: 1px solid navy;
+}
+
+#heading {
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
 }
